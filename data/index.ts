@@ -1,7 +1,8 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Resume", link: "#projects"},
+    { name: "Coursework", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -106,55 +107,106 @@ export const navItems = [
   
   export const testimonials = [
     { 
+      name: "Semester - 1",
+      subject1:
+        "Electrical and Electronics Engineering (UES013) - 9",
+        subject2:
+        "Computer Programming (UTA003) - 9",
+        subject3:
+        "Mathematics-1 (UMA010) - 9",
+        subject4:
+        "Mechanics (UES009) - 9",
+        subject5:
+        "Energy and Environment (UEN002)- 9",
+        subject6:
+        "Applied Chemistry (UCB008) - 7",
+      cg: "8.6 / 10",
+      sg: "8.6 / 10",
+    },
+    { 
+      name: "Semester - 2",
+      subject1:
+      "Object Oriented Programming (UTA018) - 10",
+      subject2:
+      "Professional Communication (UHU003) - 10",
+      subject3:
+      "Manufacturing Processes (UTA026) - 10",
+      subject4:
+      "Engineering Drawing (UTA015) - 9",
+      subject5:
+      "Applied Physics (UPH004) - 9",
+      subject6:
+      "Mathematics - 2 (UMA004) - 8",
+      cg: "9.3 / 10",
+      sg: "9.0 / 10",
+    },
+    {  
+      name: "Semester - 3",
+      subject1:
+      "Operating Systems (UCS303) - 10",
+      subject2:
+      "Computer Architecture and Organization (UCS510) - 10",
+      subject3:
+      "Discrete Mathematical Structures (UCS405) - 10",
+      subject4:
+      "Data Structures and Algorithms (UCS301) - 9",
+      subject5:
+      "Numerical Analysis (UMA011) - 9",
+      subject6:
+      "Experimental Learning Activity - NA",
+      cg: "9.2 / 10",
+      sg: "9.6 / 10",
+    },
+    { 
       name: "Semester - 4",
       subject1:
         "Database Management Systems (UCS310) - 10",
         subject2:
-        "Software Engineering - 10",
+        "Software Engineering (UCS503) - 10",
         subject3:
-        "Computer Networks - 10",
+        "Computer Networks (UCS414) - 10",
         subject4:
-        "Artificial Intelligence - 10",
+        "Artificial Intelligence (UCS411) - 10",
         subject5:
-        "Analysis of Algorithms - 9",
+        "Design and Analysis of Algorithms (UCS415) - 9",
         subject6:
-        "Optimization Techniques - 9",
+        "Optimization Techniques (UMA035) - 9",
       cg: "9.3 / 10",
-      sg: "9.7 / 10",
-    },
-    { 
-      name: "Semester - 3",
-      subject1:
-      "Operating Systems - 10",
-      subject2:
-      "Computer Architecture - 10",
-      subject3:
-      "Discrete Maths - 10",
-      subject4:
-      "Data Structures - 9",
-      subject5:
-      "Numerical Analysis - 9",
-      subject6:
-      "ELC Activity - NA",
-      cg: "9.2 / 10",
       sg: "9.6 / 10",
     },
-    {  
-      name: "Semester - 2",
+    { 
+      name: "Semester - 5",
       subject1:
-      "Object Oriented Prog. - 10",
-      subject2:
-      "Professional Comm. - 10",
-      subject3:
-      "Manufacturing Process. - 10",
-      subject4:
-      "Applied Physics - 9",
-      subject5:
-      "Engineering Drawing - 9",
-      subject6:
-      "Mathematics || - 8",
-      cg: "9 / 10",
-      sg: "9.3 / 10",
+        "Network Programming (UCS413) - 10",
+        subject2:
+        "Machine Learning (UML501) - 9",
+        subject3:
+        "UI / UX Specialist (UCS542) - 9",
+        subject4:
+        "Introduction to Corporate Finance (UHU018) - 9",
+        subject5:
+        "Probability and Statistics (UCS410) - 8",
+        subject6:
+        "Cloud Computing (UCS531) - 8",
+      cg: "9.2 / 10",
+      sg: "8.8 / 10",
+    },
+    { 
+      name: "Semester - 6",
+      subject1:
+        "Database Engineering (UCS677) - 10",
+        subject2:
+        "Computer Graphics (UCS505) - 10",
+        subject3:
+        "Quantum Computing (UCS619) - 9",
+        subject4:
+        "Test Automation (UCS662) - 9",
+        subject5:
+        "Experiental Learning Activity - NA",
+        subject6:
+        "Optimization Techniques - 9",
+      cg: "9.2 / 10",
+      sg: "9.2 / 10",
     },
   ];
   

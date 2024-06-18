@@ -9,8 +9,8 @@ const Clients = () => {
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading mb-5">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        Engineering
+        <span className="text-purple"> Course Work</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-5">
@@ -23,6 +23,11 @@ const Clients = () => {
             speed="slow"
           />
         </div>
+        
+        <h3 className="heading mt-10 mb-10">
+        Tech 
+        <span className="text-purple"> Stack</span>
+      </h3>
 
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
           {companies.map((company) => (
