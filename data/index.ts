@@ -208,7 +208,7 @@ export const navItems = [
         subject4:
         "Test Automation (UCS662) - 9",
         subject5:
-        "Optimization Techniques - 9",
+        "Theory of Computation (UCS701) - 8",
         subject6:
         "Experiental Learning Activity - NA",
       cg: "9.2 / 10",
@@ -253,34 +253,34 @@ export const navItems = [
     {
       id: 1,
       title: "Urja, Tiet (Thapar's Annual Sports Fest)",
-      desc: "Excecutive Board - Led a team of 300 students to successfully organize one of India’s premier sporting festivals",
+      desc: "Excecutive Board - Led a team of 300 students to successfully organize one of India’s premier sporting festivals.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/exp1.png",
       link:"https://www.instagram.com/urja.tiet/"
     },
     {
-      id: 1,
+      id: 2,
       title: "Creative Computing Society (Coding Student Cell)",
-      desc: " Excecutive Member - Organized various Tech events including tech hackathons, guest seminars, speaker sessions, etc",
+      desc: " Excecutive Member - Organized various Tech events including tech hackathons, guest seminars, speaker sessions, etc.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/exp4.svg",
       link:"https://www.instagram.com/ccs_tiet/"
     },
     {
       id: 3,
-      title: "Rotaract Club Tiet (Social Welfare Student Cell)",
-      desc: "Excecutive Member - Organized over 15 Welfare events including Awareness workshops, Blood Donation camps, etc",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-      link:"https://www.instagram.com/rotaractclubtiet/"
+      title: "Markfin, Tiet (Finance Student Cell)",
+      desc: "Core Member - Led and Organized over 10 Finance events including Investment Workshops, Speaker Sessions, etc.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.png",
+      link:"https://www.instagram.com/markfin.tiet/"
     },
     {
       id: 4,
-      title: "Markfin, Tiet (Finance Student Cell)",
-      desc: "Core Member - Led and Organized over 10 Finance events including Investment Workshops, Speaker Sessions, etc",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-      link:"https://www.instagram.com/markfin.tiet/"
+      title: "Rotaract Club Tiet (Social Welfare Student Cell)",
+      desc: "Excecutive Member - Organized over 15 Welfare events including Awareness workshops, Blood Donation camps, etc.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp2.png",
+      link:"https://www.instagram.com/rotaractclubtiet/"
     },
   ];
   
