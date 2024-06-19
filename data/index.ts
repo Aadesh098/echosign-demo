@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -250,31 +252,35 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Urja, Tiet (Thapar's Annual Sports Fest)",
+      desc: "Excecutive Board - Led a team of 300 students to successfully organize one of India’s premier sporting festivals",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
+      link:"https://www.instagram.com/urja.tiet/"
     },
     {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      id: 1,
+      title: "Creative Computing Society (Coding Student Cell)",
+      desc: " Excecutive Member - Organized various Tech events including tech hackathons, guest seminars, speaker sessions, etc",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+      link:"https://www.instagram.com/ccs_tiet/"
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Rotaract Club Tiet (Social Welfare Student Cell)",
+      desc: "Excecutive Member - Organized over 15 Welfare events including Awareness workshops, Blood Donation camps, etc",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
+      link:"https://www.instagram.com/rotaractclubtiet/"
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Markfin, Tiet (Finance Student Cell)",
+      desc: "Core Member - Led and Organized over 10 Finance events including Investment Workshops, Speaker Sessions, etc",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+      link:"https://www.instagram.com/markfin.tiet/"
     },
   ];
   
@@ -331,10 +337,6 @@ export const navItems = [
       icon:"/twcss.png"
     },
     {
-      name:"Shadcn",
-      icon:"/sc.png"
-    },
-    {
       name:"ThreeJs",
       icon:"/three.svg"
     },
@@ -343,20 +345,8 @@ export const navItems = [
       icon:"/dwolla.svg"
     },
     {
-      name:"Plaid",
-      icon:"/plaid.jpeg"
-    },
-    {
       name:"Appwrite",
       icon:"/appw.svg"
-    },
-    {
-      name:"Stream",
-      icon:"/str.png"
-    },
-    {
-      name:"Clerk",
-      icon:"/clerk.jpg"
     },
     {
       name:"Github",
