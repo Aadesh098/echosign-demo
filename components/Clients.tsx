@@ -2,12 +2,12 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
+import { companies, coursewok } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="coursewok" className="py-20">
       <h1 className="heading mb-5">
         Engineering
         <span className="text-purple"> Course Work</span>
@@ -18,7 +18,7 @@ const Clients = () => {
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
           <InfiniteMovingCards
-            items={testimonials}
+            items={coursewok}
             direction="right"
             speed="slow"
           />

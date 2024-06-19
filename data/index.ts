@@ -1,15 +1,15 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    // { name: "Resume", link: "#projects"},
-    { name: "Coursework", link: "#testimonials" },
+    { name: "Resume", link: "https://aadesh-resume.tiiny.site/"},
+    { name: "Coursework", link: "#coursewok" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I aim to serve my technical expertise to positively impact my Society",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -39,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech enthusiast with a passion for Development",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -50,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building an Event's Organization App",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -60,7 +60,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Do you wish to start a project together?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -73,7 +73,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "Celestia * Sync",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -89,23 +89,22 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      title: "RaiseWise",
+      des: "A decentralized crowdfunding platform that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",      img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "/ui.aiimg.com",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Urja Website",
+      des: "A decentralized crowdfunding platform that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "/ui.apple.com",
     },
   ];
   
-  export const testimonials = [
+  export const coursewok = [
     { 
       name: "Semester - 1",
       subject1:
@@ -202,9 +201,9 @@ export const navItems = [
         subject4:
         "Test Automation (UCS662) - 9",
         subject5:
-        "Experiental Learning Activity - NA",
-        subject6:
         "Optimization Techniques - 9",
+        subject6:
+        "Experiental Learning Activity - NA",
       cg: "9.2 / 10",
       sg: "9.2 / 10",
     },
