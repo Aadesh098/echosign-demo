@@ -19,7 +19,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I'm very flexible in learning new technologies",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -74,33 +74,38 @@ export const navItems = [
     {
       id: 1,
       title: "Celestia * Sync",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      des: "A Sophisticated Event Organization and Video Conferencing Web Application built using Nextjs. Supercharge your organization's events with our platform. Showcase your events and amplify your reach within our global community.",
+      img: "/p1.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "https://celestia-azure.vercel.app/",
+      githubLink:"https://github.com/Aadesh098/celestia"
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      title: "Horizon",
+      des: "A Scalable Centralized Banking and Finance Management Web Application built using Nextjs. Track Finances, Transfer Funds, Connect Multiple Bank Accounts, Accesss Transaction History and much more ",
+      img: "/p2.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/dwolla.svg", "/plaid.jpeg"],
+      link: "https://horizon-aws.vercel.app/sign-in",
+      githubLink:"https://github.com/Aadesh098/horizon"
     },
     {
       id: 3,
       title: "RaiseWise",
-      des: "A decentralized crowdfunding platform that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      des: "A decentralized crowdfunding platform that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",      
+      img: "/p3.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/tw.png", "/m.svg"],
+      link: "https://raise-wise.vercel.app/",
+      githubLink:"https://github.com/Aadesh098/RaiseWise"
     },
     {
       id: 4,
       title: "Urja Website",
-      des: "A decentralized crowdfunding platform that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      des: "Thapar Institute of Engineering and Technology Sports Festival - Urja Official Website 2023",
+      img: "/p4.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fb.svg", "/three.svg"],
+      link: "https://urja2023.vercel.app/",
+      githubLink:"https://github.com/Aadesh098/urja2023"
     },
   ];
   
@@ -287,3 +292,78 @@ export const navItems = [
       img: "/link.svg",
     },
   ];
+
+  export const technologies = [
+    {
+      name:"C++",
+      icon:"/cpp.svg"
+    },
+    {
+      name:"HTML",
+      icon:"/html.png"
+    },
+    {
+      name:"CSS",
+      icon:"/css.png"
+    },
+    {
+      name:"Javascript",
+      icon:"/js.svg"
+    },
+    {
+      name:"ReactJs",
+      icon:"/react.png"
+    },
+    {
+      name:"NextJs",
+      icon:"/nextjs.png"
+    },
+    {
+      name:"MongoDb",
+      icon:"/mongo.svg"
+    },
+    {
+      name:"NodeJs",
+      icon:"/node.png"
+    },
+    {
+      name:"Tailwind",
+      icon:"/twcss.png"
+    },
+    {
+      name:"Shadcn",
+      icon:"/sc.png"
+    },
+    {
+      name:"ThreeJs",
+      icon:"/three.svg"
+    },
+    {
+      name:"Dwolla",
+      icon:"/dwolla.svg"
+    },
+    {
+      name:"Plaid",
+      icon:"/plaid.jpeg"
+    },
+    {
+      name:"Appwrite",
+      icon:"/appw.svg"
+    },
+    {
+      name:"Stream",
+      icon:"/str.png"
+    },
+    {
+      name:"Clerk",
+      icon:"/clerk.jpg"
+    },
+    {
+      name:"Github",
+      icon:"/gith.svg"
+    },
+    {
+      name:"Postman",
+      icon:"/post.svg"
+    },
+  ]

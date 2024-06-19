@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-
-import { companies, coursewok } from "@/data";
+import { technologies, coursewok } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { BallCanvas } from "./canvas";
 
 const Clients = () => {
   return (
@@ -28,26 +28,14 @@ const Clients = () => {
         Tech 
         <span className="text-purple"> Stack</span>
       </h3>
-
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-          {companies.map((company) => (
-            <React.Fragment key={company.id}>
-              <div className="flex md:max-w-60 max-w-32 gap-2">
-                <img
-                  src={company.img}
-                  alt={company.name}
-                  className="md:w-10 w-5"
-                />
-                <img
-                  src={company.nameImg}
-                  alt={company.name}
-                  width={company.id === 4 || company.id === 5 ? 100 : 150}
-                  className="md:w-24 w-20"
-                />
-              </div>
-            </React.Fragment>
-          ))}
+        <div className='flex flex-row flex-wrap justify-center gap-10'>
+      {technologies.map((technology) => (
+        <div className='w-20 h-20' key={technology.name}>
+          <BallCanvas icon={technology.icon} />
+          <p className="flex justify-center">{technology.name}</p>
         </div>
+      ))}
+    </div>
       </div>
     </section>
   );
