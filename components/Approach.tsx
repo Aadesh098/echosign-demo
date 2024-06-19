@@ -11,10 +11,24 @@ const Approach = () => {
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
+      <Card
+          title="Overall Coordinator, Urja"
+          icon={<AceternityIcon order="?" />}
+          des="Served on the Excecutive boards of the Thapar's Annual Sports Fest and Led a team of 300 students to successfully organize one of India’s premier sporting festivals - Urja 2024"
+        >
+         <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-gold-900 rounded-3xl overflow-hidden"
+            colors={[
+              [59, 130, 246],
+              [139, 92, 246],
+            ]}
+            dotSize={2}
+          />
+        </Card>
         <Card
           title="Merit Scholarship, Tiet"
-          icon={<AceternityIcon order="Phase 1" />}
+          icon={<AceternityIcon order="?" />}
           des="Received Merit Scholarships for an Annual Grage Point Average of 9.61 for the Academic year 2023"
         >
           <CanvasRevealEffect
@@ -29,25 +43,10 @@ const Approach = () => {
         </Card>
         <Card
           title="Soccer SGFI U-17 Nationals"
-          icon={<AceternityIcon order="Phase 2" />}
+          icon={<AceternityIcon order="?" />}
           des="Led my team and competed in the Prestigious SGFI U-17 Soccer Nationals and various other leveled tournaments"
         >
           <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-gold-900 rounded-3xl overflow-hidden"
-            colors={[
-              [59, 130, 246],
-              [139, 92, 246],
-            ]}
-            dotSize={2}
-          />
-        </Card>
-        <Card
-          title="Overall Coordinator, Urja"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="Served on the Excecutive boards of the Thapar's Annual Sports Fest and Led a team of 300 students to successfully organize one of India’s premier sporting festivals - Urja 2024"
-        >
-         <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-gold-900 rounded-3xl overflow-hidden"
             colors={[
