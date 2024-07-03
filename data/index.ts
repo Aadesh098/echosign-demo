@@ -4,7 +4,6 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Resume", link: "https://avs-resume.tiiny.site/"},
-    { name: "Coursework", link: "#coursewok" },
     { name: "Contact", link: "#contact" },
   ];
   
