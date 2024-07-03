@@ -75,6 +75,15 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Athenia",
+      des: "A Real-Time Collaborative Visual Workspace for Teams and Organizations. Go from brainstorming to execution, all in one place.",
+      img: "/p3.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/convex.png", "/c.svg"],
+      link: "https://athenia-aws.vercel.app/",
+      githubLink:"https://github.com/Aadesh098/celestia"
+    },
+    {
+      id: 2,
       title: "Celestia * Sync",
       des: "A Sophisticated Event Organization and Video Conferencing Web Application built using Nextjs. Supercharge your organization's events with our platform. Showcase your events and amplify your reach within our global community.",
       img: "/p1.png",
@@ -83,22 +92,13 @@ export const navItems = [
       githubLink:"https://github.com/Aadesh098/celestia"
     },
     {
-      id: 2,
+      id: 3,
       title: "Horizon",
       des: "A Scalable Centralized Banking and Finance Management Web Application built using Nextjs. Track Finances, Transfer Funds, Connect Multiple Bank Accounts, Accesss Transaction History and much more ",
       img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/dwolla.svg", "/plaid.jpeg"],
       link: "https://horizon-aws.vercel.app/sign-in",
       githubLink:"https://github.com/Aadesh098/horizon"
-    },
-    {
-      id: 3,
-      title: "RaiseWise",
-      des: "A decentralized crowdfunding platform that offers a secure and transparent solution for individuals and organizations to raise funds for various personal/social causes.",      
-      img: "/p3.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/tw.png", "/m.svg"],
-      link: "https://raise-wise.vercel.app/",
-      githubLink:"https://github.com/Aadesh098/RaiseWise"
     },
     {
       id: 4,
