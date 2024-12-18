@@ -17,10 +17,10 @@ const Footer = () => {
       <EarthCanvas />
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to <span className="text-purple">Collaborate</span> on Impactful digital solutions?
+          Ready to <span className="text-purple">Collaborate</span> on Impactful Digital Solutions?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Please do reach out if I could serve you in any way possible
+          Please do reach out if we could serve you in any way possible
         </p>
         <a href="mailto:aadesh0313@gmail.com">
           <MagicButton
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="mb-2 md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Aadeshvir Singh
+          Copyright © 2024 EchoSign
         </p>
 
         <div className="mt-1 mb-2 flex items-center md:gap-3 gap-6">

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Machine Learning Based | Hand Gesture Recognition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script>
+        const client = mqtt.connect('ws://broker.emqx.io:8083/mqtt'); // Replace with your MQTT
+        client.on('connect', () => {
+            console.log('Connected');
+            client.subscribe('hand_gesture/TP'); 
+        });
+
+        client.on('message', (topic, message) => {
+            const dataElement = document.getElementById('data');
+            dataElement.innerText = message.toString();
+
+            setTimeout(() => {
+                dataElement.innerText = "Waiting for data...";
+            }, 5000);
+        });
+    </script>
+</head>
+
+<body class="bg-light">
+    <div class="container text-center my-5">
+        <h1 class="display-5 fw-bold text-primary mb-4">Hand Gesture Recognition</h1>
+        <div class="card shadow-lg p-4">
+            <h2 class="h2">Gesture Word</h2>
+            <h3 class="h2 text-success" id="data">Waiting for data...</h3>
+        </div>
+    </div>
+</body>
+
+</html>
