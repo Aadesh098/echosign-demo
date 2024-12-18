@@ -22,7 +22,8 @@ const Experience = () => {
   const [gestureData, setGestureData] = useState("Waiting for data...");
 
   useEffect(() => {
-    const client = mqtt.connect("ws://broker.emqx.io:8083/mqtt"); 
+    // Use the secure WebSocket protocol
+    const client = mqtt.connect("wss://broker.emqx.io:8084/mqtt"); 
 
     client.on("connect", () => {
       console.log("Connected to MQTT Broker");
