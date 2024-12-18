@@ -1,9 +1,55 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
+import mqtt from "mqtt"; 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
+const gestureMap: { [key: number]: string } = {
+  0: "Hi, How are you?",
+  1: "I am fine, thank you.",
+  2: "What is your name?",
+  3: "My name is EchoSign.",
+  4: "Where are you from?",
+  5: "I am from the Internet!",
+  6: "What do you do?",
+  7: "I assist with sign language.",
+  8: "Can you help me?",
+  9: "Sure, what do you need?",
+  10: "Thank you!",
+  11: "You're welcome!"
+};
+
 const Experience = () => {
+  const [gestureData, setGestureData] = useState("Waiting for data...");
+
+  useEffect(() => {
+    const client = mqtt.connect("ws://broker.emqx.io:8083/mqtt"); 
+
+    client.on("connect", () => {
+      console.log("Connected to MQTT Broker");
+      client.subscribe("hand_gesture/TP");
+    });
+
+    client.on("message", (topic, message) => {
+      const receivedValue = parseInt(message.toString(), 10);
+
+      // Ensure receivedValue is within 0–11
+      const mappedExpression =
+        gestureMap[receivedValue as keyof typeof gestureMap] || "Unknown gesture";
+
+      setGestureData(mappedExpression);
+
+      // Reset data after 5 seconds
+      // setTimeout(() => {
+      //   setGestureData("Waiting for data...");
+      // }, 10000);
+    });
+
+    // Cleanup the MQTT connection on component unmount
+    return () => {
+      client.end();
+    };
+  }, []);
+
   return (
     <div className="py-20 w-full" id="demo">
       <h1 className="heading">
@@ -40,9 +86,9 @@ const Experience = () => {
                 <h1 className="text-center text-2xl md:text-3xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.desc} &nbsp;&nbsp;
-                </p>
+                <h1 className="text-center text-xl mt-3 md:text-xl font-bold underline">
+                {gestureData}
+                </h1>
               </div>
               <img
                 src={card.thumbnail}

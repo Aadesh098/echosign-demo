@@ -1,0 +1,14 @@
+/* CSS file or Tailwind for Moving Border */
+.moving-border {
+    animation: moveBorder 10s linear infinite;
+  }
+  
+  @keyframes moveBorder {
+    0% {
+      border-image-source: linear-gradient(0deg, rgba(4,7,29,1), rgba(12,14,35,1));
+    }
+    100% {
+      border-image-source: linear-gradient(360deg, rgba(4,7,29,1), rgba(12,14,35,1));
+    }
+  }
+  
