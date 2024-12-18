@@ -3,7 +3,7 @@ import { link } from "fs";
 export const navItems = [
     { name: "Home", link: "#home" },
     { name: "Demo", link: "#demo" },
-    { name: "EchoSign-Edu", link: "https://echosign-aws.vercel.app/"},
+    { name: "EchoSign-Edu", link: "https://echosign-edu.vercel.app/"},
     { name: "Contact", link: "#contact" },
   ];
 
